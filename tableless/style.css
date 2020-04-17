@@ -1,0 +1,66 @@
+/*RESET*/
+*{margin:0; padding:0;};
+
+body{
+    font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333;  
+    background:url(imagens/...) repeat-x;
+}
+#box{
+    width:1000px;
+    margin: 0 auto;
+}
+
+
+/*Topo*/
+#header{
+        right: 208px; 
+        width: 1000px; 
+        border-bottom: 9px solid #ccc;
+};
+#header_logo{}
+#header_anuncio{}
+#header_search{}
+#header_menu{}
+
+/*Left Sidebar*/
+#sidebar_left{
+    width: 150px; 
+    float: left; 
+    height: 500px; 
+    background: #903;}
+
+
+/*Content - Responsável por todo o conteúdo*/
+#content{width: 650px; float: left; background: #0C3; height: 500px;}
+#content_destaque{}
+#content_destaque_lista{}
+#content_destaque_destaque{}
+
+/*ENTRETERIMENTO*/
+#content_entreterimento{}
+#content_entreterimento_conteudo{}
+#content_entreterimento_anuncio{}
+
+/*ESPORTES*/
+#content_esportes{}
+#content_esportes_conteudo{}
+#content_esportes_comentados{}
+
+/*TECNOLOGIA*/
+#contetn_tecnologia{}
+#content_tecnologia_destaque{}
+#content_tecnologia_conteudo{}
+
+/*VISTOS*/
+#content_vistos{}
+#content_vistos_conteudo{}
+#content_vistos_anuncio{}
+
+/*RIGHT SIDEBAR*/
+#right_sidebar{width: 200px; float: right; background: #903; height: 500px;}
+
+/*footer*/
+#clear{clear: both;}
+#footer_all{height: 115px; background: url(imagens/...) repeat-x rgb(245, 242, 242);}
+#footer{width: 980px; margin: 0 auto; padding: 15px 10px;}
+#footer_txt{}
