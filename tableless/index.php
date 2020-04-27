@@ -14,15 +14,21 @@
 
         <div id="header">
             <div id="header_logo">
-               Logomarca
+               <a href="index.php" title="UpNews"><img src="imagens/upnews.png" alt="UpNews" border="0"/></a>
             </div><!--Fechamento da div header_logo-->
 
             <div id="header_anuncio">
-                Anuncio Header
+                <img src="imagens/anuncio.png"/>
             </div><!--Fechamento da div header_anuncio-->
 
-            <div id="header_surch">
-                surch
+            <div id="header_search">
+                <form>
+                    <label>
+                        <spam>O que você procura?</span>
+                        <input type="text"/>
+                        <input type="submit" value="" class="btn"/>
+                    </label>
+                </form>
             </div><!--Fechamento da div header_surch-->
 
             <div id="header_menu">

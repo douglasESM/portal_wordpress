@@ -1,34 +1,26 @@
 /*RESET*/
-*{margin:0; padding:0;};
+*{margin:0; padding:0;}
 
-body{
-    font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333;  
-    background:url(imagens/...) repeat-x;
-}
-#box{
-    width:1000px;
-    margin: 0 auto;
-}
-
+body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; background:url(imagens/...) repeat-x;}
+#box{width:1000px; margin: 0 auto;}
 
 /*Topo*/
-#header{
-        right: 208px; 
-        width: 1000px; 
-        border-bottom: 9px solid #ccc;
-};
-#header_logo{}
-#header_anuncio{}
-#header_search{}
+#header{right: 208px; width: 1000px; border-bottom: 9px solid #ccc;}
+#header_logo{float: left; margin: 25px 0px 0px 10px; border: 1px solid #CCC;}
+#header_anuncio{float: right; padding: 2px; border: 1px solid #CCC; margin: 7px 0 0 0;}
+
+#header_search{width: 1000px; height: 40px; float: left; margin-top: 8px;}
+#header_search form{width: 678px; display: block; margin: 0 auto;}
+#header_search span{ font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #FFF; font-weight: bold;}
+#header_search input{ font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-weight: bold; 
+                      margin: 5px 0; padding: 5px; border: 1px solid #333; width: 430px;}
+#header_search .btn{width: 31px; height: 30px; margin: 0; padding: 0; float: right; margin: 5px 0;
+                    background: url(imagens/search_icon.png) no-repeat;}
+
 #header_menu{}
 
 /*Left Sidebar*/
-#sidebar_left{
-    width: 150px; 
-    float: left; 
-    height: 500px; 
-    background: #903;}
-
+#sidebar_left{ width: 150px; float: left; height: 500px; background: #903;}
 
 /*Content - Responsável por todo o conteúdo*/
 #content{width: 650px; float: left; background: #0C3; height: 500px;}
