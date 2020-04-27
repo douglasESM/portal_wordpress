@@ -12,12 +12,24 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #header_search{width: 1000px; height: 40px; float: left; margin-top: 8px;}
 #header_search form{width: 678px; display: block; margin: 0 auto;}
 #header_search span{ font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #FFF; font-weight: bold;}
-#header_search input{ font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-weight: bold; 
-                      margin: 5px 0; padding: 5px; border: 1px solid #333; width: 430px;}
-#header_search .btn{width: 31px; height: 30px; margin: 0; padding: 0; float: right; margin: 5px 0;
-                    background: url(imagens/search_icon.png) no-repeat;}
+#header_search input{ font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-weight: bold; margin: 5px 0; padding: 5px; border: 1px solid #333; width: 430px;}
+#header_search .btn{width: 31px; height: 30px; margin: 0; padding: 0; float: right; margin: 5px 0; background: url(imagens/search_icon.png) no-repeat;}
 
-#header_menu{}
+#header_menu{float: left; width: 1000px;}
+#header_menu .menu_paginas{list-style: none; float: left;}
+#header_menu .menu_paginas li{width: 80px; height: 52px; background: #069; display: inline; float: left; margin: 2px 10px 2px 0; text-align: center; padding: 0 5px; }
+#header_menu .menu_paginas li a {text-decoration: none; font: 20px Georgia, "Times New Roman", Times, serif; text-transform: lowercase; color: #FFF; }
+#header_menu .menu_paginas li:hover{background:#036;}                                
+
+
+#header_menu .menu_categorias{float: left; line-height: normal;}
+#header_menu .menu_categorias li{display: inline; font: 26px "Trebuchet MS", Arial, Helvetica, sans-serif; margin: 10px 17px 0px 17px; font-weight: bold; float: left;}
+#header_menu .menu_categorias li a {text-decoration:none}
+#header_menu .menu_categorias li .noticias{color: #C30;}
+#header_menu .menu_categorias li .esportes{color: #093;}
+#header_menu .menu_categorias li .entretenimento{color: #F90;}
+#header_menu .menu_categorias li .tecnologia{color: #069;}
+#header_menu .menu_categorias li a:hover{text-decoration: underline;}  
 
 /*Left Sidebar*/
 #sidebar_left{ width: 150px; float: left; height: 500px; background: #903;}

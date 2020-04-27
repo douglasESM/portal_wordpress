@@ -32,7 +32,17 @@
             </div><!--Fechamento da div header_surch-->
 
             <div id="header_menu">
-                Menu
+                <ul class="menu_paginas">
+                    <li><a href="#">Página inicial</a></li>
+                    <li><a href="#">Fale conosco</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                </ul>
+                <ul class="menu_categorias">
+                    <li><a href="#" class="noticias">/noticias</a></li>
+                    <li><a href="#" class="esportes">/esportes</a></li>
+                    <li><a href="#" class="entretenimento">/entretenimento</a></li>
+                    <li><a href="#" class="tecnologia">/tecnologia</a></li>
+                </ul>
             </div><!--Fechamento da div header_menu-->
 
         </div><!--Fechamento da div header-->
