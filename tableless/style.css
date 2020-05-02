@@ -20,7 +20,18 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #header_menu{}
 
 /*Left Sidebar*/
-#sidebar_left{ width: 150px; float: left; height: 500px; background: #903;}
+#sidebar_left{ width: 150px; float: left;}
+#sidebar_left ul{list-style: none; margin:0 0 10px 0; float: left; border-bottom:5px solid #ccc; width: 150px; padding: 5px 2px}
+#sidebar_left ul li{float: left; width: 142px; padding: 2px; border-bottom: 1px solid #ccc}
+#sidebar_left ul li a {text-decoration: none; color: #333;}
+#sidebar_left ul li:hover{background-color: #CCC;}
+#sidebar_left .noticias {color: #C30; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin: 8px 0 0 0 ;}
+#sidebar_left .esportes {color: #093; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin: 8px 0 0 0 ;}
+#sidebar_left .entreterimento {color: #F90; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin: 8px 0 0 0 ;}
+#sidebar_left .tecnologia {color: #069; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin: 8px 0 0 0 ;}
+#sidebar_left .especial {color: #639; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin: 8px 0 0 0 ;}
+#left_adsence{float: left; padding: 2px; border: 1px solid #999; display: block; margin:0 10px 10px 10px; width: 124px;}
+
 
 /*Content - Responsável por todo o conteúdo*/
 #content{width: 650px; float: left; background: #0C3; height: 500px;}
