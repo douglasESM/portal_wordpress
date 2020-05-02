@@ -24,7 +24,7 @@
             <div id="header_search">
                 <form>
                     <label>
-                        <spam>O que você procura?</span>
+                        <span>O que você procura?</span>
                         <input type="text"/>
                         <input type="submit" value="" class="btn"/>
                     </label>
