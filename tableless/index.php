@@ -24,7 +24,7 @@
             <div id="header_search">
                 <form>
                     <label>
-                        <spam>O que você procura?</span>
+                        <span>O que você procura?</span>
                         <input type="text"/>
                         <input type="submit" value="" class="btn"/>
                     </label>
@@ -32,6 +32,7 @@
             </div><!--Fechamento da div header_surch-->
 
             <div id="header_menu">
+<<<<<<< HEAD
                 <ul class="menu_paginas">
                     <li><a href="#">Página inicial</a></li>
                     <li><a href="#">Fale conosco</a></li>
@@ -43,12 +44,62 @@
                     <li><a href="#" class="entretenimento">/entretenimento</a></li>
                     <li><a href="#" class="tecnologia">/tecnologia</a></li>
                 </ul>
+=======
+                
+>>>>>>> 663a005c2e465bb7174236dd29a004f65e8e8537
             </div><!--Fechamento da div header_menu-->
 
         </div><!--Fechamento da div header-->
 
         <div id="sidebar_left">
-            LEFT SIDEBAR
+            <h1 class="noticias">/noticias</h1>
+            <ul>
+                <li><a href="#">sub categoria 01</a></li>
+                <li><a href="#">sub categoria 02</a></li>
+                <li><a href="#">sub categoria 03</a></li>
+                <li><a href="#">sub categoria 04</a></li>
+                <li><a href="#">sub categoria 05</a></li>
+            </ul>
+
+            <h1 class="esportes">/esportes</h1>
+            <ul>
+                <li><a href="#">sub categoria 01</a></li>
+                <li><a href="#">sub categoria 02</a></li>
+                <li><a href="#">sub categoria 03</a></li>
+                <li><a href="#">sub categoria 04</a></li>
+                <li><a href="#">sub categoria 05</a></li>
+            </ul>
+
+            <h1 class="entreterimento">/entreterimento</h1>
+            <ul>
+                <li><a href="#">sub categoria 01</a></li>
+                <li><a href="#">sub categoria 02</a></li>
+                <li><a href="#">sub categoria 03</a></li>
+                <li><a href="#">sub categoria 04</a></li>
+                <li><a href="#">sub categoria 05</a></li>
+            </ul>
+
+            <h1 class="tecnologia">/tecnologia</h1>
+            <ul>
+                <li><a href="#">sub categoria 01</a></li>
+                <li><a href="#">sub categoria 02</a></li>
+                <li><a href="#">sub categoria 03</a></li>
+                <li><a href="#">sub categoria 04</a></li>
+                <li><a href="#">sub categoria 05</a></li>
+            </ul>
+
+            <h1 class="especial">/especial</h1>
+            <ul>
+                <li><a href="#">sub categoria 01</a></li>
+                <li><a href="#">sub categoria 02</a></li>
+                <li><a href="#">sub categoria 03</a></li>
+                <li><a href="#">sub categoria 04</a></li>
+                <li><a href="#">sub categoria 05</a></li>
+            </ul>
+
+            <div id="left_adsence">
+                <img src="imagens/anuncio2.png"/>
+            </div>
         </div><!--Fecha a left sidebar-->
 
         <div id="content">

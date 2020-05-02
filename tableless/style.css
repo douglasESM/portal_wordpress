@@ -6,14 +6,23 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 
 /*Topo*/
 #header{right: 208px; width: 1000px; border-bottom: 9px solid #ccc;}
-#header_logo{float: left; margin: 25px 0px 0px 10px; border: 1px solid #CCC;}
+#header_logo{float: left; margin: 25px 0px 0px 0px; border: 1px solid #CCC;}
 #header_anuncio{float: right; padding: 2px; border: 1px solid #CCC; margin: 7px 0 0 0;}
 
 #header_search{width: 1000px; height: 40px; float: left; margin-top: 8px;}
+<<<<<<< HEAD
 #header_search form{width: 678px; display: block; margin: 0 auto;}
 #header_search span{ font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #FFF; font-weight: bold;}
 #header_search input{ font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-weight: bold; margin: 5px 0; padding: 5px; border: 1px solid #333; width: 430px;}
 #header_search .btn{width: 31px; height: 30px; margin: 0; padding: 0; float: right; margin: 5px 0; background: url(imagens/search_icon.png) no-repeat;}
+=======
+#header_search form{width: 682px; display: block; margin: 0 auto;}
+#header_search span{font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif; color: rgb(10, 10, 10); font-weight: bold; padding: 7px 4px; float: left;}
+#header_search input{ font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-weight: bold; 
+                      margin: 5px 0; padding: 5px; border: 1px solid #333; width: 430px;}
+#header_search .btn{width: 31px; height: 30px; margin: 0; padding: 0; float: right; margin: 5px 0;
+                    background: url(imagens/search_icon.png) no-repeat;}
+>>>>>>> 663a005c2e465bb7174236dd29a004f65e8e8537
 
 #header_menu{float: left; width: 1000px;}
 #header_menu .menu_paginas{list-style: none; float: left;}
@@ -32,7 +41,18 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #header_menu .menu_categorias li a:hover{text-decoration: underline;}  
 
 /*Left Sidebar*/
-#sidebar_left{ width: 150px; float: left; height: 500px; background: #903;}
+#sidebar_left{ width: 150px; float: left;}
+#sidebar_left ul{list-style: none; margin:0 0 10px 0; float: left; border-bottom:5px solid #ccc; width: 150px; padding: 5px 2px}
+#sidebar_left ul li{float: left; width: 142px; padding: 2px; border-bottom: 1px solid #ccc}
+#sidebar_left ul li a {text-decoration: none; color: #333;}
+#sidebar_left ul li:hover{background-color: #CCC;}
+#sidebar_left .noticias {color: #C30; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin: 8px 0 0 0 ;}
+#sidebar_left .esportes {color: #093; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin: 8px 0 0 0 ;}
+#sidebar_left .entreterimento {color: #F90; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin: 8px 0 0 0 ;}
+#sidebar_left .tecnologia {color: #069; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin: 8px 0 0 0 ;}
+#sidebar_left .especial {color: #639; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin: 8px 0 0 0 ;}
+#left_adsence{float: left; padding: 2px; border: 1px solid #999; display: block; margin:0 10px 10px 10px; width: 124px;}
+
 
 /*Content - Responsável por todo o conteúdo*/
 #content{width: 650px; float: left; background: #0C3; height: 500px;}
