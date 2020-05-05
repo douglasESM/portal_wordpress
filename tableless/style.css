@@ -80,9 +80,19 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #content_entreterimento_anuncio{width: 200px; float: right;}
 
 /*ESPORTES*/
-#content_esportes{background: #30C; width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
-#content_esportes_conteudo{}
-#content_esportes_comentados{}
+#content_esportes{width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
+#content_esportes_conteudo{width: 425px; padding: 5px 10 5px 0; float: left;}
+#content_esportes_conteudo a{text-decoration:none; color: #093; font:20px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold;}
+#content_esportes_conteudo h1 a{font: 18px Georgia, "Times New Roman", Times, serif; font-weight: bold; color: #333; float: left; width: 205px; border-bottom: 1px groove #333;}
+#content_esportes_conteudo h1 a:hover{text-decoration: none; color:#093; }
+#content_esportes_conteudo a:hover{text-decoration: underline;}
+#content_esportes_conteudo ul{float: left; width: 425px; list-style: none; margin: 0; padding: 0;}
+#content_esportes_conteudo ul li{float:left; width: 425px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px dotted #CCC;}
+#content_esportes_conteudo img{float: left; margin-right: 8px; padding: 3px; border: 1px solid #093;}
+#content_esportes_conteudo img:hover{background: #093;}
+
+
+#content_esportes_comentados{width: 190px; float: right; background: #960;}
 
 /*TECNOLOGIA*/
 #contet_tecnologia{background: #F06; width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}

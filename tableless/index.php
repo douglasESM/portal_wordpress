@@ -150,11 +150,36 @@
             <div id="contet_esportes">
 
                 <div id="content_esportes_conteudo">
-                    Esportes conteudo
+                    <ul>
+                        <li>
+                            <a href="#"><img src="midias/ilustra-300.png" alt="" width="200" height="100" border="0"></a>
+                            <h1><a href="#">Futebol</a></h1>
+                            <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
+                        </li>
+
+                        <li>
+                            <a href=""><img src="" alt=""></a>
+                            <h1><a href="#">Futebol</a></h1>
+                            <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
+                        </li>
+
+                        <li>
+                            <h1><a href="#">Futebol</a></h1>
+                            <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
+                        </li>
+                    </ul>
+
                 </div><!--  content_esportes_conteudo -->
 
                 <div id="content_esportes_comentados">
-                    content esportes comentados
+                    <h1 class="especial"> + COMENTADOS</h1>
+                    <ol>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                    </ol>
                 </div><!-- content_esportes_comentados -->
 
             </div><!--Fecha div de conteúdos para esportes-->            
