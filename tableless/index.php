@@ -104,16 +104,16 @@
 
                 <div id="content_destaque_conteudo">
                     <ul>
-                        <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting .</a></li>
+                        <li><h1><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></h1></li>
                         <li>
                             <ul>
-                                <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting .</a></li>
-                                <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting .</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#"><img src="midias/ilustra-100.png" alt="" border="0"/></a>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting .</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                         </li>
                     </ul>
                 </div><!--content destaque conteudo-->
@@ -121,7 +121,7 @@
                 <div id="content_destaque_destaque">
                     <span><a href="#">Postado em 05/05/2020</a></span>
                     <a href="#"><img src="midias/ilustra-300.png" alt="" border="0"></a>
-                    <p><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting .</a></p>
+                    <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
                 </div><!--content_destaque_destaque -->
 
             </div>

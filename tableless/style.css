@@ -52,10 +52,17 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 
 #content_destaque{width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
 #content_destaque_conteudo{width: 260px; float: left;}
+#content_destaque a{text-decoration: none; color: #C30;}
+#content_destaque img:hover{background-color: #C30;}
+#content_destaque a:hover{text-decoration: underline;}
+#content_destaque img{padding: 3px; border: 1px solid #CCC;}
+#content_destaque span a{float: right; font:14px  Georgia, "Times New Roman", Times, serif; font-weight: bold; color: #333; padding: 2px;}
+#content_destaque p {font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold;}
 #content_destaque_conteudo ul{list-style: none; margin: 0; padding: 0;}
 #content_destaque_conteudo ul li{width: 260px; float: left; margin-bottom: 3px; padding-bottom: 3px; border-bottom: 1px solid #CCC;}
+#content_destaque_conteudo ul li h1{font-size: 24px;}
 #content_destaque_conteudo ul li img{float: left; margin-right: 8px;}
-#content_destaque_conteudo ul li ul li{width: 130px; float: left; border:0}
+#content_destaque_conteudo ul li ul li{width: 120px; padding: 0 5px; float: left; border:0; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif ;}
 
 /*2 Coluna*/
 #content_destaque_destaque{width: 360px; float: right;}
