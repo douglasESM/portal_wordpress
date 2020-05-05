@@ -46,28 +46,37 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 
 
 /*Content - Responsável por todo o conteúdo*/
+/*1 coluna*/
 #content{width: 630px; float: left; padding: 0 5px; margin: 0 5px;}
-#content_destaque{background: #F90; width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px;}
-#content_destaque_conteudo{}
-#content_destaque_destaque{}
+
+
+#content_destaque{width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
+#content_destaque_conteudo{width: 260px; float: left;}
+#content_destaque_conteudo ul{list-style: none; margin: 0; padding: 0;}
+#content_destaque_conteudo ul li{width: 260px; float: left; margin-bottom: 3px; padding-bottom: 3px; border-bottom: 1px solid #CCC;}
+#content_destaque_conteudo ul li img{float: left; margin-right: 8px;}
+#content_destaque_conteudo ul li ul li{width: 130px; float: left; border:0}
+
+/*2 Coluna*/
+#content_destaque_destaque{width: 360px; float: right;}
 
 /*ENTRETERIMENTO*/
-#content_entreterimento{background: rgb(26, 148, 148); width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px;}
+#content_entreterimento{background: rgb(26, 148, 148); width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
 #content_entreterimento_conteudo{}
 #content_entreterimento_anuncio{}
 
 /*ESPORTES*/
-#content_esportes{background: #30C; width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px;}
+#content_esportes{background: #30C; width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
 #content_esportes_conteudo{}
 #content_esportes_comentados{}
 
 /*TECNOLOGIA*/
-#contet_tecnologia{background: #F06; width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px;}
+#contet_tecnologia{background: #F06; width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
 #content_tecnologia_destaque{}
 #content_tecnologia_conteudo{}
 
 /*VISTOS*/
-#content_vistos{background: #399; width: 630px;}
+#content_vistos{background: #399; width: 630px; float: left;}
 #content_vistos_conteudo{}
 #content_vistos_anuncio{}
 
