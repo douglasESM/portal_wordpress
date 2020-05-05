@@ -68,9 +68,16 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #content_destaque_destaque{width: 360px; float: right;}
 
 /*ENTRETERIMENTO*/
-#content_entreterimento{background: rgb(26, 148, 148); width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
-#content_entreterimento_conteudo{}
-#content_entreterimento_anuncio{}
+#content_entreterimento{width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
+
+#content_entreterimento_conteudo{width: 428px; float: left; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold;}
+#content_entreterimento_conteudo a{text-decoration: none; color: #F90;}
+#content_entreterimento_conteudo a:hover{text-decoration: underline;}
+#content_entreterimento_conteudo img{padding: 2px; border: 1px solid #F90}
+#content_entreterimento_conteudo img:hover{background: #F90;}
+#content_entreterimento_conteudo ul{float: left; width: 428px; list-style: none; margin: 0; padding: 0;}
+#content_entreterimento_conteudo ul li{display: inline; float: left; width: 206px; margin: 0 8px 0 0;}
+#content_entreterimento_anuncio{width: 200px; float: right;}
 
 /*ESPORTES*/
 #content_esportes{background: #30C; width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}

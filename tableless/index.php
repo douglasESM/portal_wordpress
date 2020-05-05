@@ -129,11 +129,20 @@
             <div id="content_entreterimento">
 
                 <div id="content_entreterimento_conteudo">
-                    Entreterimento conteudo
+                    <ul>
+                        <li>
+                            <a href="#"><img src="midias/ilustra-300.png" alt="" width="200" height="100" border="0"/></a>
+                            <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="midias/ilustra-300.png" alt="" width="200" height="100" border="0"/></a>
+                            <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
+                        </li>
+                    </ul>                   
                 </div><!-- content_entreterimento_conteudo -->
 
                 <div id="content_entreterimento_anuncio">
-                    Entreterimento anuncios
+                    <img src="imagens/anuncio3.png" alt="">
                 </div><!--  content_entreterimento_anuncio -->
 
             </div><!-- content_entreterimento -->
