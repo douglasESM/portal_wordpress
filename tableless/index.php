@@ -32,7 +32,6 @@
             </div><!--Fechamento da div header_surch-->
 
             <div id="header_menu">
-<<<<<<< HEAD
                 <ul class="menu_paginas">
                     <li><a href="#">Página inicial</a></li>
                     <li><a href="#">Fale conosco</a></li>
@@ -44,9 +43,6 @@
                     <li><a href="#" class="entretenimento">/entretenimento</a></li>
                     <li><a href="#" class="tecnologia">/tecnologia</a></li>
                 </ul>
-=======
-                
->>>>>>> 663a005c2e465bb7174236dd29a004f65e8e8537
             </div><!--Fechamento da div header_menu-->
 
         </div><!--Fechamento da div header-->
@@ -103,59 +99,66 @@
         </div><!--Fecha a left sidebar-->
 
         <div id="content">
-            <div id="content_destaque_conteudo">
-                Lista do conteudo
-            </div><!--content destaque conteudo-->
 
-            <div id="content_destaque_destaque">
-                Destaque
-            </div><!--content_destaque_destaque -->
+            <div id="content_destaque">
+
+                <div id="content_destaque_conteudo">
+                    Lista do conteudo
+                </div><!--content destaque conteudo-->
+
+                <div id="content_destaque_destaque">
+                    Destaque
+                </div><!--content_destaque_destaque -->
+
+            </div>
 
             <div id="content_entreterimento">
-            Entreterimento
-            <div id="content_entreterimento_conteudo">
-                Entreterimento conteudo
-            </div><!-- content_entreterimento_conteudo -->
 
-            <div id="content_entreterimento_anuncio">
-                Entreterimento anuncios
-            </div><!--  content_entreterimento_anuncio -->
+                <div id="content_entreterimento_conteudo">
+                    Entreterimento conteudo
+                </div><!-- content_entreterimento_conteudo -->
+
+                <div id="content_entreterimento_anuncio">
+                    Entreterimento anuncios
+                </div><!--  content_entreterimento_anuncio -->
 
             </div><!-- content_entreterimento -->
 
             <div id="contet_esportes">
-            <div id="content_esportes_conteudo">
-                Esportes conteudo
-            </div><!--  content_esportes_conteudo -->
 
-            <div id="content_esportes_comentados">
-                content esportes comentados
-            </div><!-- content_esportes_comentados -->
-        </div><!-- content entreterimento -->
+                <div id="content_esportes_conteudo">
+                    Esportes conteudo
+                </div><!--  content_esportes_conteudo -->
 
-        <div id="contet_tecnologia">
+                <div id="content_esportes_comentados">
+                    content esportes comentados
+                </div><!-- content_esportes_comentados -->
 
-            <div id="content_tecnologia_destaque">
-                Tecnologia Destaques
-            </div>
+            </div><!--Fecha div de conteúdos para esportes-->            
 
-            <div id="content_tecnologia_conteudo">
-                Tecnologia Conteudo
-            </div>
+            <div id="contet_tecnologia">
 
-        </div><!-- contet_tecnologia -->
+                <div id="content_tecnologia_destaque">
+                    Tecnologia Destaques
+                </div>
 
-        <div id="content_vistos">
+                <div id="content_tecnologia_conteudo">
+                    Tecnologia Conteudo
+                </div>
 
-            <div id="content_vistos_conteudo">
-                Content vistos conteudo
-            </div>
+            </div><!-- contet_tecnologia -->
 
-            <div id="content_vistos_anuncio">
-                Content vistos anuncio
-            </div>
+            <div id="content_vistos">
 
-        </div><!-- Content Vistos -->
+                <div id="content_vistos_conteudo">
+                    Content vistos conteudo
+                </div>
+
+                <div id="content_vistos_anuncio">
+                    Content vistos anuncio
+                </div>
+
+            </div><!-- Content Vistos -->
 
         </div><!--content -->
 
@@ -167,7 +170,7 @@
             sidebar right
         </div>
         
-    <div id="clear"></div>
+        <div id="clear"></div>
 
     </div><!--Fechamento da div box-->
     
