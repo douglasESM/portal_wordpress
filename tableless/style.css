@@ -58,7 +58,7 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #content_destaque img{padding: 3px; border: 1px solid #CCC;}
 #content_destaque span a{float: right; font:14px  Georgia, "Times New Roman", Times, serif; font-weight: bold; color: #333; padding: 2px;}
 #content_destaque p {font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold;}
-#content_destaque p .lista{font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold;}
+#content_destaque .lista{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold;}
 #content_destaque_conteudo ul{list-style: none; margin: 0; padding: 0;}
 #content_destaque_conteudo ul li{width: 260px; float: left; margin-bottom: 3px; padding-bottom: 3px; border-bottom: 1px solid #CCC;}
 #content_destaque_conteudo ul li h1{font-size: 24px;}
@@ -123,7 +123,18 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #content_vistos_anuncio{width: 300px; padding:2px; border:1px solid #933; float: right;}
 
 /*RIGHT SIDEBAR*/
-#right_sidebar{width: 200px; float: right; background: #903; height: 500px;}
+#right_sidebar{width: 200px; float: right;}
+#sidebar_newsletter, #sidebar_enquete{border:1px solid #CCC; margin: 5px 0 0 0; padding: 5px; width: 190px; float: left;}
+
+/*SIDEBAR NEWSLETTER*/
+.sidebar_newsletter{font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #639; margin: 0 0 5px 0;}
+#sidebar_newsletter input{width: 184px; padding: 3px; font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #999; border:1px solid #333;}
+#sidebar_newsletter .btn{width: 100px; float: right; margin: 5px 0; color: #fff; background: #333; cursor: pointer;}
+#sidebar_newsletter .btn:hover{background: #fff; color: #333;}
+#sidebar_newsletter label{display: block;}
+#sidebar_newsletter span{float: left; padding: 7px; font-weight: bold;}
+
+
 
 /*footer*/
 #clear{clear: both;}

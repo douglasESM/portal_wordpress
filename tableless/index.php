@@ -228,8 +228,35 @@
 
 
         <div id="right_sidebar">
-            sidebar right
+            <div id="sidebar_newsletter">
+                <h1 class="sidebar_newsletter">/newsletter</h1>
+                <form>
+                    <label>
+                        <input type="text/">
+                        <input type="submit" value="Enviar dados"class="btn">
+                        <span>Seu e-mail</span>
+                    </label>
+                </form>
+            </div><!--fim sidebar_newsletter-->
+
+            <div id="sidebar_enquete">
+
+                <h1 class="sidebar_enquete">/Enquete</h1>
+                
+                <span>O que achou do nosso site?</span>
+                <ul>
+                    <li>() Muito Bom </li>
+                    <li>() Bom</li>
+                    <li>() Não gostei</li>
+                </ul>
+
+                <a href="#">VOTE</a></br>
+                <a href="#">VER RESULTADOS</a>
+
+            </div><!--fim sidebar_enquete-->
         </div>
+
+        
         
         <div id="clear"></div>
 
