@@ -205,11 +205,18 @@
             <div id="content_vistos">
 
                 <div id="content_vistos_conteudo">
-                    Content vistos conteudo
+                    <h1>+ vistos</h1>
+                    <ol>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                    </ol>
                 </div>
 
                 <div id="content_vistos_anuncio">
-                    Content vistos anuncio
+                    <img src="imagens/anuncio41.png" alt="">
                 </div>
 
             </div><!-- Content Vistos -->

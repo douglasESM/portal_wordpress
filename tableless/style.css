@@ -112,9 +112,14 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #content_tecnologia_conteudo ul li{width: 240px; float: left; margin-bottom:5px ; padding-bottom: 5px; border-bottom: 1px solid;}
 
 /*VISTOS*/
-#content_vistos{background: #399; width: 630px; float: left;}
-#content_vistos_conteudo{}
-#content_vistos_anuncio{}
+#content_vistos{width: 630px; float: left;}
+#content_vistos_conteudo{float: left; width: 320px;}
+#content_vistos_conteudo h1{font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; text-transform: uppercase; color: #903}
+#content_vistos_conteudo a{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #903; text-decoration: none;}
+#content_vistos_conteudo a:hover{text-decoration: underline;}
+#content_vistos_conteudo ol{margin: 0 0 0 23px;}
+#content_vistos_conteudo ol li{margin: 0 0 5px 0; padding: 0 0 5px 0; border-bottom: 1px solid #CCC;}
+#content_vistos_anuncio{width: 300px; padding:2px; border:1px solid #933; float: right;}
 
 /*RIGHT SIDEBAR*/
 #right_sidebar{width: 200px; float: right; background: #903; height: 500px;}
