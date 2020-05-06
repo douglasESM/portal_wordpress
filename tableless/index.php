@@ -185,14 +185,19 @@
 
             </div><!--Fecha div de conteúdos para esportes-->            
 
-            <div id="contet_tecnologia">
+            <div id="content_tecnologia">
 
                 <div id="content_tecnologia_destaque">
-                    Tecnologia Destaques
+                    <a href="#"><img src="midias/ilustra-300.png" alt="" border="0"></a>
+                    <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
                 </div>
 
                 <div id="content_tecnologia_conteudo">
-                    Tecnologia Conteudo
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                    </ul>
                 </div>
 
             </div><!-- contet_tecnologia -->

@@ -99,9 +99,17 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #content_esportes_comentados a:hover{text-decoration: underline;}
 
 /*TECNOLOGIA*/
-#contet_tecnologia{background: #F06; width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
-#content_tecnologia_destaque{}
-#content_tecnologia_conteudo{}
+#content_tecnologia{width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
+#content_tecnologia a{text-decoration: none; color: #069;}
+#content_tecnologia a:hover{text-decoration: underline;}
+#content_tecnologia_destaque{width: 365px; float: left; padding: 5px;}
+#content_tecnologia_destaque img{padding:3px; border: 1px solid #069;}
+#content_tecnologia_destaque img:hover{background-color: #069;}
+#content_tecnologia_destaque p{font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold;}
+/*TECNOLOGIA CONTEÚDO*/
+#content_tecnologia_conteudo{width: 240px; float: right; padding: 5px; font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold;}
+#content_tecnologia_conteudo ul{list-style: none; margin:0; padding: 0; width: 240px;}
+#content_tecnologia_conteudo ul li{width: 240px; float: left; margin-bottom:5px ; padding-bottom: 5px; border-bottom: 1px solid;}
 
 /*VISTOS*/
 #content_vistos{background: #399; width: 630px; float: left;}
