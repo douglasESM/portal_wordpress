@@ -158,12 +158,13 @@
                         </li>
 
                         <li>
-                            <a href=""><img src="" alt=""></a>
+                            <a href="#"><img src="midias/ilustra-300.png" alt="" width="200" height="100" border="0"></a>
                             <h1><a href="#">Futebol</a></h1>
                             <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
                         </li>
 
                         <li>
+                            <a href="#"><img src="midias/ilustra-300.png" alt="" width="200" height="100" border="0"></a>
                             <h1><a href="#">Futebol</a></h1>
                             <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
                         </li>
