@@ -113,10 +113,10 @@
                         </li>
                         <li>
                             <a href="#"><img src="midias/ilustra-100.png" alt="" border="0"/></a>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            <p class="lista">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                         </li>
                     </ul>
-                </div><!--content destaque conteudo-->
+                </div><!--FIM content destaque conteudo-->
 
                 <div id="content_destaque_destaque">
                     <span><a href="#">Postado em 05/05/2020</a></span>

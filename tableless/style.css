@@ -58,6 +58,7 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #content_destaque img{padding: 3px; border: 1px solid #CCC;}
 #content_destaque span a{float: right; font:14px  Georgia, "Times New Roman", Times, serif; font-weight: bold; color: #333; padding: 2px;}
 #content_destaque p {font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold;}
+#content_destaque p .lista{font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold;}
 #content_destaque_conteudo ul{list-style: none; margin: 0; padding: 0;}
 #content_destaque_conteudo ul li{width: 260px; float: left; margin-bottom: 3px; padding-bottom: 3px; border-bottom: 1px solid #CCC;}
 #content_destaque_conteudo ul li h1{font-size: 24px;}
@@ -83,7 +84,7 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #content_esportes{width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
 #content_esportes_conteudo{width: 425px; padding: 5px 10 5px 0; float: left;}
 #content_esportes_conteudo a{text-decoration:none; color: #093; font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold;}
-#content_esportes_conteudo h1 a{font: 18px Georgia, "Times New Roman", Times, serif; font-weight: bold; color: #333; float: left; width: 205px; border-bottom: 1px groove #333;}
+#content_esportes_conteudo h1 a{font: 18px Georgia, "Times New Roman", Times, serif; font-weight: bold; color: #333; float: left; width: 205px;}
 #content_esportes_conteudo h1 a:hover{text-decoration: none; color:#093; }
 #content_esportes_conteudo a:hover{text-decoration: underline;}
 #content_esportes_conteudo ul{float: left; width: 425px; list-style: none; margin: 0; padding: 0;}
@@ -94,7 +95,7 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #content_esportes_comentados{width: 190px; float: right;}
 #content_esportes_comentados h1{font: 22px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #639; text-transform: uppercase; font-weight: bold; margin-bottom: 5px; }
 #content_esportes_comentados ol{margin: 0 0 0 23px}
-#content_esportes_comentados ol li{margin: 0 0 5px 0; padding: 0 0 5px 0; border-bottom: 1ps solid #639;}
+#content_esportes_comentados ol li{margin: 0 0 5px 0; padding: 0 0 5px 0; border-bottom: 1px solid #639;}
 #content_esportes_comentados a{text-decoration:none; color: #069;}
 #content_esportes_comentados a:hover{text-decoration: underline;}
 
