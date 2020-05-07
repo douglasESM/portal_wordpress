@@ -124,7 +124,7 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 
 /*RIGHT SIDEBAR*/
 #right_sidebar{width: 200px; float: right;}
-#sidebar_newsletter, #sidebar_enquete, #sidebar_siganos{border:1px solid #CCC; margin: 5px 0 0 0; padding: 5px; width: 190px; float: left;}
+#sidebar_newsletter, #sidebar_enquete, #sidebar_siganos, #sidebar_equipe{border:1px solid #CCC; margin: 5px 0 0 0; padding: 5px; width: 190px; float: left;}
 
 /*SIDEBAR NEWSLETTER*/
 .sidebar_newsletter{font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #639; margin: 0 0 5px 0;}
@@ -147,7 +147,9 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 .sidebar_siganos{font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #09F; margin: 0 0 5px 0;}
 #sidebar_siganos img{border:0;}
 #sidebar_siganos ul{list-style: none; float: left; width: 100%;}
-#sidebar_siganos ul li{ float: left;display: inline; margin:0 5px}
+#sidebar_siganos ul li{ float: left; display: inline; margin:0 5px}
+
+
 
 /*footer*/
 #clear{clear: both;}

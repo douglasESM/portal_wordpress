@@ -264,6 +264,33 @@
                 </ul>
             </div><!--Fecha div sidebar_siganos-->
 
+            <div id="sidebar_equipe">
+
+                <h1 class="sidebar_equipe">/siga a UpNews</h1>
+                <ul>
+                    <li>
+                        <img src="imagens/autor.png" alt="" height="48px" width="48px">
+                        <span>Douglas Erik S. Morais</span>
+                        <a href="#">/blog do autor</a>
+                        /blog do autor
+                    </li>
+                    <li>
+                        <img src="imagens/autor.png" alt="" height="48px" width="48px">
+                        <span>Douglas Erik S. Morais</span>
+                        <a href="#">/blog do autor</a>
+                        /blog do autor
+                    </li>
+                    <li>
+                        <img src="imagens/autor.png" alt="" height="48px" width="48px">
+                        <span>Douglas Erik S. Morais</span>
+                        <a href="#">/blog do autor</a>
+                        /blog do autor
+                    </li>
+                </ul>
+
+
+            </div><!--Fecha a div sidebar_equipe-->
+
         </div><!--Fecha div right_sidebar -->
 
         
