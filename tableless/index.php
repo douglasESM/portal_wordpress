@@ -250,8 +250,8 @@
                     <li>() Não gostei</li>
                 </ul>
 
-                <a href="#">VOTE</a></br>
-                <a href="#">VER RESULTADOS</a>
+                <a href="#">VOTE</a>
+                <a href="#" class="ver_result">VER RESULTADOS</a>
 
             </div><!--fim sidebar_enquete-->
         </div>
