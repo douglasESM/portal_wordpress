@@ -254,7 +254,17 @@
                 <a href="#" class="ver_result">VER RESULTADOS</a>
 
             </div><!--fim sidebar_enquete-->
-        </div>
+
+            <div id="sidebar_siganos">
+                <h1 class="sidebar_siganos">/siga a UpNews</h1>                
+                <ul>
+                    <li><a href="#"><img src="imagens/siganos_instagran.png" target="_blank" alt="Siganos no Instagran"></a></li>
+                    <li><a href="#"><img src="imagens/siganos_twitter.png" target="_blank" alt="Siganos no Twitter"></a></li>
+                    <li><a href="#"><img src="imagens/siganos_facebook.png" target="_blank" alt="Siganos no Facebook"></a></li>
+                </ul>
+            </div><!--Fecha div sidebar_siganos-->
+
+        </div><!--Fecha div right_sidebar -->
 
         
         
