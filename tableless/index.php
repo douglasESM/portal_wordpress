@@ -270,26 +270,32 @@
                 <ul>
                     <li>
                         <img src="imagens/autor.png" alt="" height="48px" width="48px">
-                        <span>Douglas Erik S. Morais</span>
-                        <a href="#">/blog do autor</a>
-                        /blog do autor
+                        <span>Douglas E. S. Morais</span>
+                        <a href="#">/blog do autor</a>                        
                     </li>
                     <li>
                         <img src="imagens/autor.png" alt="" height="48px" width="48px">
-                        <span>Douglas Erik S. Morais</span>
-                        <a href="#">/blog do autor</a>
-                        /blog do autor
+                        <span>Douglas E. S. Morais</span>
+                        <a href="#">/blog do autor</a>                        
                     </li>
                     <li>
                         <img src="imagens/autor.png" alt="" height="48px" width="48px">
-                        <span>Douglas Erik S. Morais</span>
-                        <a href="#">/blog do autor</a>
-                        /blog do autor
+                        <span>Douglas E. S. Morais</span>
+                        <a href="#">/blog do autor</a>                        
                     </li>
                 </ul>
-
-
             </div><!--Fecha a div sidebar_equipe-->
+
+            <div id="sidebar_plantao">
+                <h1 class="sidebar_plantao">/plantão</h1>
+                <ul>
+                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                </ul>
+            </div><!--Fecha a div sidebar_plantao-->
 
         </div><!--Fecha div right_sidebar -->
 

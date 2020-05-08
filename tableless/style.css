@@ -124,7 +124,7 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 
 /*RIGHT SIDEBAR*/
 #right_sidebar{width: 200px; float: right;}
-#sidebar_newsletter, #sidebar_enquete, #sidebar_siganos, #sidebar_equipe{border:1px solid #CCC; margin: 5px 0 0 0; padding: 5px; width: 190px; float: left;}
+#sidebar_newsletter, #sidebar_enquete, #sidebar_siganos, #sidebar_equipe, #sidebar_plantao{border:1px solid #CCC; margin: 5px 0 0 0; padding: 5px; width: 190px; float: left;}
 
 /*SIDEBAR NEWSLETTER*/
 .sidebar_newsletter{font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #639; margin: 0 0 5px 0;}
@@ -149,8 +149,21 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #sidebar_siganos ul{list-style: none; float: left; width: 100%;}
 #sidebar_siganos ul li{ float: left; display: inline; margin:0 5px}
 
+/*SIDEBAR EQUIPE*/
+.sidebar_equipe{font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #093; margin: 0 0 5px 0;}
+#sidebar_equipe a{font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; text-decoration: none; color: #093}
+#sidebar_qeuipe a:hover{text-decoration: underline;}
+#sidebar_equipe img{float: left; padding: 2px; border: 1px solid #CCC; margin-right: 5px;}
+#sidebar_equipe ul {list-style: none; margin: 0; padding:0;}
+#sidebar_equipe ul li {float: left; width: 190px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px groove #333;}
 
-
+/*sidebar_plantao*/
+.sidebar_plantao{font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #639; margin: 0 0 5px 0;}
+#sidebar_plantao {font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+#sidebar_plantao a {text-decoration: none; color:#333}
+#sidebar_plantao a:hover{text-decoration: underline;}
+#sidebar_plantao ul{list-style: none; margin: 0; padding: 0;}
+#sidebar_plantao ul li{float: left; width: 190px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px groove #333;}
 /*footer*/
 #clear{clear: both;}
 #footer_all{height: 115px; background: url(imagens/...) repeat-x rgb(245, 242, 242);}
