@@ -206,6 +206,7 @@
 
                 <div id="content_vistos_conteudo">
                     <h1>+ vistos</h1>
+                    
                     <ol>
                         <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
                         <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
@@ -216,7 +217,15 @@
                 </div>
 
                 <div id="content_vistos_anuncio">
-                    <img src="imagens/anuncio41.png" alt="">
+                    <h1 class="videos">/vídeos</h1>
+                    
+                    <iframe width="300" 
+                            height="225" 
+                            src="https://www.youtube.com/embed/WEsk3qVQQ4c" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
                 </div>
 
             </div><!-- Content Vistos -->
@@ -296,6 +305,33 @@
                     <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
                 </ul>
             </div><!--Fecha a div sidebar_plantao-->
+
+            <div id="sidebar_comentadores">
+
+                <h1 class="sidebar_comentadores">/usuários do mês</h1>
+                <ul>
+                    <li>
+                        <img src="imagens/autor.png" alt="" height="48px" width="48px">
+                        <span>Douglas E. S. Morais</span>                                               
+                    </li>
+                    <li>
+                        <img src="imagens/autor.png" alt="" height="48px" width="48px">
+                        <span>Douglas E. S. Morais</span>                                                
+                    </li>
+                    <li>
+                        <img src="imagens/autor.png" alt="" height="48px" width="48px">
+                        <span>Douglas E. S. Morais</span>                                                
+                    </li>
+                    <li>
+                        <img src="imagens/autor.png" alt="" height="48px" width="48px">
+                        <span>Douglas E. S. Morais</span>                                                
+                    </li>
+                    <li>
+                        <img src="imagens/autor.png" alt="" height="48px" width="48px">
+                        <span>Douglas E. S. Morais</span>                                                
+                    </li>
+                </ul>
+            </div><!--Fecha a div sidebar_comentadores-->
 
         </div><!--Fecha div right_sidebar -->
 
