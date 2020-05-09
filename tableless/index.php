@@ -40,7 +40,7 @@
                 <ul class="menu_categorias">
                     <li><a href="#" class="noticias">/noticias</a></li>
                     <li><a href="#" class="esportes">/esportes</a></li>
-                    <li><a href="#" class="entretenimento">/entretenimento</a></li>
+                    <li><a href="#" class="entretenimento">/entreterimento</a></li>
                     <li><a href="#" class="tecnologia">/tecnologia</a></li>
                 </ul>
             </div><!--Fechamento da div header_menu-->
@@ -242,7 +242,7 @@
                 <form>
                     <label>
                         <input type="text/">
-                        <input type="submit" value="Enviar dados"class="btn">
+                        <input type="submit" value="Cadastrar"class="btn">
                         <span>Seu e-mail</span>
                     </label>
                 </form>
@@ -344,8 +344,14 @@
     <div id="footer_all">    
         
         <div id="footer">
+            <ul>
+                <li><a href="#">noticias</a></li>
+                <li><a href="#">esportes</a></li>
+                <li><a href="#">entreterimento</a></li>
+                <li><a href="#">tecnologia</a></li>
+            </ul>
             <div id="footer_txt">
-                footer txt
+                <a href="#"><img src="imagens/upnews.png" alt="Desenvilvido por Douglas Morais, Todos os direitos reservados" border="0"></a>
             </div><!--Fechamento da div footer_txt-->
         </div><!--Fechamento da div footer-->
 

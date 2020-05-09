@@ -32,7 +32,7 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #header_menu .menu_categorias li a:hover{text-decoration: underline;}  
 
 /*Left Sidebar*/
-#sidebar_left{ width: 150px; float: left;}
+#sidebar_left{ width: 150px; float: left; margin: 0 0 5px 0;}
 #sidebar_left ul{list-style: none; margin:0 0 10px 0; float: left; border-bottom:5px solid #ccc; width: 150px; padding: 5px 2px}
 #sidebar_left ul li{float: left; width: 142px; padding: 2px; border-bottom: 1px solid #ccc}
 #sidebar_left ul li a {text-decoration: none; color: #333;}
@@ -47,7 +47,7 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 
 /*Content - Responsável por todo o conteúdo*/
 /*1 coluna*/
-#content{width: 630px; float: left; padding: 0 5px; margin: 0 5px;}
+#content{width: 630px; float: left; padding: 0 5px; margin: 0 5px 5px 5px;}
 
 
 #content_destaque{width: 630px; border-bottom: 5px solid #CCC; padding-bottom: 5px; margin-bottom: 5px; float: left;}
@@ -125,7 +125,7 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #content_vistos .videos{font:18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #F36; margin: 0 0 5px 0;}
 
 /*RIGHT SIDEBAR*/
-#right_sidebar{width: 200px; float: right;}
+#right_sidebar{width: 200px; float: right; margin: 0 0 5px 0;}
 #sidebar_newsletter, #sidebar_enquete, #sidebar_siganos, #sidebar_equipe, #sidebar_plantao, #sidebar_comentadores{border:1px solid #CCC; margin: 5px 0 0 0; padding: 5px; width: 190px; float: left;}
 
 /*SIDEBAR NEWSLETTER*/
@@ -158,6 +158,7 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #sidebar_equipe img{float: left; padding: 2px; border: 1px solid #CCC; margin-right: 5px;}
 #sidebar_equipe ul {list-style: none; margin: 0; padding:0;}
 #sidebar_equipe ul li {float: left; width: 190px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px groove #333;}
+#sidebar_equipe span{display: block;}
 
 /*sidebar_plantao*/
 .sidebar_plantao{font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #639; margin: 0 0 5px 0;}
@@ -179,4 +180,8 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #clear{clear: both;}
 #footer_all{height: 115px; background: url(imagens/...) repeat-x rgb(245, 242, 242);}
 #footer{width: 980px; margin: 0 auto; padding: 15px 10px;}
-#footer_txt{}
+#footer ul {float: right; list-style: none;}
+#footer ul li{display: inline; margin: 10px; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; float: left;}
+#footer ul li a{text-decoration: none; color: #333}
+#footer ul li a:hover{color: #09F;}
+#footer_txt{float: left;}
