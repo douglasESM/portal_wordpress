@@ -1,6 +1,8 @@
 <!--AQUI VAI O HEADER-->
+<?php get_header(); ?>
 
 <!--AQUI VAI O LEFT SIDEBAR-->
+<?php get_sidebar(); ?>
 
         <div id="content">
 
@@ -136,7 +138,10 @@
 
         </div><!--content -->
 
-        
+<?php include (TEMPLATEPATH . '/right_sidebar.php'); ?>
+
+<!--AQUI VAI O FOOTER-->   
+<?php get_footer(); ?>
 
 
 

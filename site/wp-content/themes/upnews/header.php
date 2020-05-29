@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UPNEWS</title>
     <!--CSS Manual-->
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <style type="text/css" media="screen">
+		@import url( <?php bloginfo('stylesheet_url'); ?>);
+	</style>
     
 </head>
 <body>
