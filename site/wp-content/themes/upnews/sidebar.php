@@ -45,6 +45,6 @@
 	</ul>
 
 	<div id="left_adsence">
-		<img src="imagens/anuncio2.png"/>
+		<img src="<?php bloginfo('template_directory'); ?>/imagens/anuncio2.png"/>
 	</div>
 </div><!--Fecha a left sidebar-->

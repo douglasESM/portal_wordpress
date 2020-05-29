@@ -18,7 +18,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#"><img src="midias/ilustra-100.png" alt="" border="0"/></a>
+                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-100.png" alt="" border="0"/></a>
                             <p class="lista">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                         </li>
                     </ul>
@@ -26,7 +26,7 @@
 
                 <div id="content_destaque_destaque">
                     <span><a href="#">Postado em 05/05/2020</a></span>
-                    <a href="#"><img src="midias/ilustra-300.png" alt="" border="0"></a>
+                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" border="0"></a>
                     <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
                 </div><!--content_destaque_destaque -->
 
@@ -37,18 +37,18 @@
                 <div id="content_entreterimento_conteudo">
                     <ul>
                         <li>
-                            <a href="#"><img src="midias/ilustra-300.png" alt="" width="200" height="100" border="0"/></a>
+                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" width="200" height="100" border="0"/></a>
                             <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
                         </li>
                         <li>
-                            <a href="#"><img src="midias/ilustra-300.png" alt="" width="200" height="100" border="0"/></a>
+                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" width="200" height="100" border="0"/></a>
                             <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
                         </li>
                     </ul>                   
                 </div><!-- content_entreterimento_conteudo -->
 
                 <div id="content_entreterimento_anuncio">
-                    <img src="imagens/anuncio3.png" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/imagens/anuncio3.png" alt="">
                 </div><!--  content_entreterimento_anuncio -->
 
             </div><!-- content_entreterimento -->
@@ -58,19 +58,19 @@
                 <div id="content_esportes_conteudo">
                     <ul>
                         <li>
-                            <a href="#"><img src="midias/ilustra-300.png" alt="" width="200" height="100" border="0"></a>
+                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" width="200" height="100" border="0"></a>
                             <h1><a href="#">Futebol</a></h1>
                             <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
                         </li>
 
                         <li>
-                            <a href="#"><img src="midias/ilustra-300.png" alt="" width="200" height="100" border="0"></a>
+                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" width="200" height="100" border="0"></a>
                             <h1><a href="#">Futebol</a></h1>
                             <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
                         </li>
 
                         <li>
-                            <a href="#"><img src="midias/ilustra-300.png" alt="" width="200" height="100" border="0"></a>
+                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" width="200" height="100" border="0"></a>
                             <h1><a href="#">Futebol</a></h1>
                             <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
                         </li>
@@ -94,7 +94,7 @@
             <div id="content_tecnologia">
 
                 <div id="content_tecnologia_destaque">
-                    <a href="#"><img src="midias/ilustra-300.png" alt="" border="0"></a>
+                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" border="0"></a>
                     <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
                 </div>
 

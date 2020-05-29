@@ -29,9 +29,9 @@
 	<div id="sidebar_siganos">
 		<h1 class="sidebar_siganos">/siga a UpNews</h1>                
 		<ul>
-			<li><a href="#"><img src="imagens/siganos_instagran.png" target="_blank" alt="Siganos no Instagran"></a></li>
-			<li><a href="#"><img src="imagens/siganos_twitter.png" target="_blank" alt="Siganos no Twitter"></a></li>
-			<li><a href="#"><img src="imagens/siganos_facebook.png" target="_blank" alt="Siganos no Facebook"></a></li>
+			<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imagens/siganos_instagran.png" target="_blank" alt="Siganos no Instagran"></a></li>
+			<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imagens/siganos_twitter.png" target="_blank" alt="Siganos no Twitter"></a></li>
+			<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imagens/siganos_facebook.png" target="_blank" alt="Siganos no Facebook"></a></li>
 		</ul>
 	</div><!--Fecha div sidebar_siganos-->
 
@@ -40,17 +40,17 @@
 		<h1 class="sidebar_equipe">/siga a UpNews</h1>
 		<ul>
 			<li>
-				<img src="imagens/autor.png" alt="" height="48px" width="48px">
+				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
 				<span>Douglas E. S. Morais</span>
 				<a href="#">/blog do autor</a>                        
 			</li>
 			<li>
-				<img src="imagens/autor.png" alt="" height="48px" width="48px">
+				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
 				<span>Douglas E. S. Morais</span>
 				<a href="#">/blog do autor</a>                        
 			</li>
 			<li>
-				<img src="imagens/autor.png" alt="" height="48px" width="48px">
+				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
 				<span>Douglas E. S. Morais</span>
 				<a href="#">/blog do autor</a>                        
 			</li>
@@ -73,23 +73,23 @@
 		<h1 class="sidebar_comentadores">/usuários do mês</h1>
 		<ul>
 			<li>
-				<img src="imagens/autor.png" alt="" height="48px" width="48px">
+				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
 				<span>Douglas E. S. Morais</span>                                               
 			</li>
 			<li>
-				<img src="imagens/autor.png" alt="" height="48px" width="48px">
+				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
 				<span>Douglas E. S. Morais</span>                                                
 			</li>
 			<li>
-				<img src="imagens/autor.png" alt="" height="48px" width="48px">
+				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
 				<span>Douglas E. S. Morais</span>                                                
 			</li>
 			<li>
-				<img src="imagens/autor.png" alt="" height="48px" width="48px">
+				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
 				<span>Douglas E. S. Morais</span>                                                
 			</li>
 			<li>
-				<img src="imagens/autor.png" alt="" height="48px" width="48px">
+				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
 				<span>Douglas E. S. Morais</span>                                                
 			</li>
 		</ul>
