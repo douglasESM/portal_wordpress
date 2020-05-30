@@ -41,7 +41,7 @@
                         <?php if (have_posts()): while (have_posts()) : the_post(); ?>
                         <!-- RESPONSÁVEL PELA FORMATAÇÃO IMAGEM DO POST -->
                         <a href="<?php the_Permalink() ?>"><img src="<?php echo get_settings('home'); ?>/<?php $key="img"; echo get_post_meta($post->ID,$key,true); ?>" 
-                        alt="" border="0" width='100' height='50' border="0"/></a>
+                        alt="<?php the_title(); ?>" border="0" width='100' height='50' border="0"/></a>
 
                         <p class="lista"><a href="<?php the_Permalink() ?>"><?php the_title(); ?></a></p>
 
@@ -61,7 +61,7 @@
                 <span><a href="<?php the_Permalink() ?>">Postado em <?php the_time('j M Y'); ?></a></span>
                 <!-- RESPONSÁVEL PELA FORMATAÇÃO IMAGEM DO POST DESTAQUES-->
                 <a href="<?php the_Permalink() ?>"><img src="<?php echo get_settings('home'); ?>/<?php $key="img"; echo get_post_meta($post->ID,$key,true); ?>"
-                alt="" border="0" width="350" height="175" border="0"></a>
+                alt="<?php the_title(); ?>" border="0" width="350" height="175" border="0"></a>
                 <!-- RESPONSÁVEL PELA FORMATAÇÃO TITULO DO POST DESTAQUES-->
                 <p><a href="<?php the_Permalink() ?>"><?php the_title(); ?></a></p>
 
@@ -77,14 +77,26 @@
 
             <div id="content_entreterimento_conteudo">
                 <ul>
+
+                    <?php query_posts('showposts=2&category_name=entreterimento'); ?>                
+                    <!-- ABRE LOOP -->
+                    <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+                    
                     <li>
+                        <a href="<?php the_Permalink() ?>">
+                        <img src="<?php echo get_settings('home'); ?>/<?php $key="img"; echo get_post_meta($post->ID,$key,true); ?>"
+                        alt="<?php the_title(); ?>" width="200" height="100" border="0"/></a>
+                            
+                        <a href="<?php the_Permalink() ?>"><?php the_title(); ?>
+                    </li>
+                    <!-- FECHA O LOOP -->
+                    <?php endwhile; else: ?>
+                    <?php endif; ?>
+
+                    <!--li>
                         <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" width="200" height="100" border="0"/></a>
                         <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" width="200" height="100" border="0"/></a>
-                        <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
-                    </li>
+                    </li-->
                 </ul>                   
             </div><!-- content_entreterimento_conteudo -->
 
