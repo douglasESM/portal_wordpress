@@ -92,11 +92,7 @@
                     <!-- FECHA O LOOP -->
                     <?php endwhile; else: ?>
                     <?php endif; ?>
-
-                    <!--li>
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" width="200" height="100" border="0"/></a>
-                        <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
-                    </li-->
+                    
                 </ul>                   
             </div><!-- content_entreterimento_conteudo -->
 
@@ -110,23 +106,23 @@
 
             <div id="content_esportes_conteudo">
                 <ul>
+                    <?php query_posts('showposts=3&category_name=esportes'); ?>                
+                    <!-- ABRE LOOP -->
+                    <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+                    
                     <li>
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" width="200" height="100" border="0"></a>
-                        <h1><a href="#">Futebol</a></h1>
-                        <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
+                    <a href="<?php the_Permalink() ?>">
+                        <img src="<?php echo get_settings('home'); ?>/<?php $key="img"; echo get_post_meta($post->ID,$key,true); ?>"
+                        alt="<?php the_title(); ?>" width="200" height="100" border="0"></a>
+                        
+                        <h1><a href="<?php the_Permalink() ?>"><?php $category = get_the_category(); echo $category[1]->cat_name; ?></a></h1>
+                        <p><a href="<?php the_Permalink() ?>"><?php the_title(); ?></p>
                     </li>
 
-                    <li>
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" width="200" height="100" border="0"></a>
-                        <h1><a href="#">Futebol</a></h1>
-                        <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
-                    </li>
-
-                    <li>
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" width="200" height="100" border="0"></a>
-                        <h1><a href="#">Futebol</a></h1>
-                        <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
-                    </li>
+                    <!-- FECHA O LOOP -->
+                    <?php endwhile; else: ?>
+                    <?php endif; ?>
+            
                 </ul>
 
             </div><!--  content_esportes_conteudo -->
@@ -134,11 +130,12 @@
             <div id="content_esportes_comentados">
                 <h1 class="especial"> + COMENTADOS</h1>
                 <ol>
+                    <?php get_mostcommented(5); ?>
+                    <!--li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
                     <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
                     <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
                     <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li-->
                 </ol>
             </div><!-- content_esportes_comentados -->
 
