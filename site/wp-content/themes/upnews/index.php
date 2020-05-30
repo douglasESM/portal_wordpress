@@ -111,9 +111,10 @@
                     <?php if (have_posts()): while (have_posts()) : the_post(); ?>
                     
                     <li>
-                    <a href="<?php the_Permalink() ?>">
+                        <a href="<?php the_Permalink() ?>">
                         <img src="<?php echo get_settings('home'); ?>/<?php $key="img"; echo get_post_meta($post->ID,$key,true); ?>"
-                        alt="<?php the_title(); ?>" width="200" height="100" border="0"></a>
+                        alt="<?php the_title(); ?>" width="200" height="100" border="0">
+                        </a>
                         
                         <h1><a href="<?php the_Permalink() ?>"><?php $category = get_the_category(); echo $category[1]->cat_name; ?></a></h1>
                         <p><a href="<?php the_Permalink() ?>"><?php the_title(); ?></p>
@@ -130,12 +131,24 @@
             <div id="content_esportes_comentados">
                 <h1 class="especial"> + COMENTADOS</h1>
                 <ol>
-                    <?php get_mostcommented(5); ?>
-                    <!--li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li-->
+                    <?php $result = $wpdb->get_results("
+                    SELECT comment_count,ID,post_title 
+                    FROM $wpdb->posts 
+                    ORDER BY comment_count DESC 
+                    LIMIT 0 , 5");
+                    foreach ($result as $post) {
+                        setup_postdata($post);
+                        $postid = $post->ID;
+                        $title = $post->post_title;
+                        $commentcount = $post->comment_count;
+                    if ($commentcount != 0) { ?>
+                        <li>
+                            <a href="<?php echo get_permalink($postid); ?>"title="<?php echo $title ?>"> 
+                            <?php echo $title ?></a>
+                            <?php echo $commentcount ?>
+                        </li> 
+                    <?php } } ?>
+                    
                 </ol>
             </div><!-- content_esportes_comentados -->
 
@@ -144,15 +157,33 @@
         <div id="content_tecnologia">
 
             <div id="content_tecnologia_destaque">
-                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" border="0"></a>
-                <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
+                <?php query_posts('showposts=1&category_name=tecnologia'); ?>                
+                <!-- ABRE LOOP -->
+                <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+
+                <a href="<?php the_Permalink() ?>">
+                    <img src="<?php echo get_settings('home'); ?>/<?php $key="img"; echo get_post_meta($post->ID,$key,true); ?>"
+                    alt="<?php the_title(); ?>" border="0">
+                </a>
+
+                <p><a href="<?php the_Permalink() ?>"><?php the_title(); ?></p>
+                <!-- FECHA O LOOP -->
+                <?php endwhile; else: ?>
+                <?php endif; ?>
             </div>
 
             <div id="content_tecnologia_conteudo">
                 <ul>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                    <?php query_posts('showposts=3&category_name=tecnologia&offset=1'); ?>                
+                    <!-- ABRE LOOP -->
+                    <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+
+                    <li><a href="<?php the_Permalink() ?>"><?php the_title(); ?></li>
+
+                    <!-- FECHA O LOOP -->
+                    <?php endwhile; else: ?>
+                    <?php endif; ?>                    
+
                 </ul>
             </div>
 
