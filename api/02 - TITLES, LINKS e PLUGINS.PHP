@@ -1,4 +1,4 @@
-<!--CORRIGINDO TITULO WP>
+<!--CORRIGINDO TITULO WP-->
 <title>
 	<?php
 		if (is_home()){

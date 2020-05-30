@@ -33,4 +33,3 @@
 
 <!-- LIMITA PALAVRAS (Baixw o plugin The Excerpt re-reloaded)-->
 <?php the_excerpt_rereloaded(NUMERO DE LETRAS); ?>
-
