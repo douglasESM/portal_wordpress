@@ -10,24 +10,60 @@
 
                 <div id="content_destaque_conteudo">
                     <ul>
-                        <li><h1><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></h1></li>
+                        <li>        
+                            <?php query_posts('showposts=1&category_name=noticias&offset=1'); ?>                
+                            <!-- ABRE LOOP -->
+                            <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+                        
+                            <h1><a href="<?php the_Permalink() ?>"><?php the_title(); ?></a></h1>
+
+                            <!-- FECHA O LOOP -->
+                            <?php endwhile; else: ?>
+                            <?php endif; ?>
+
+                        </li>
+
                         <li>
                             <ul>
-                                <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                                <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                                <?php query_posts('showposts=2&category_name=noticias&offset=2'); ?>                
+                                <!-- ABRE LOOP -->
+                                <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+                                <li><a href="<?php the_Permalink() ?>"><?php the_title(); ?></a></li>
+                                <!-- FECHA O LOOP -->
+                                <?php endwhile; else: ?>
+                                <?php endif; ?>
                             </ul>
                         </li>
+
                         <li>
+                            <?php query_posts('showposts=1&category_name=noticias&offset=4'); ?>                
+                            <!-- ABRE LOOP -->
+                            <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+                            
                             <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-100.png" alt="" border="0"/></a>
-                            <p class="lista">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            <p class="lista"><a href="<?php the_Permalink() ?>"><?php the_title(); ?></a></p>
+
+                            <!-- FECHA O LOOP -->
+                            <?php endwhile; else: ?>
+                            <?php endif; ?>
                         </li>
                     </ul>
                 </div><!--FIM content destaque conteudo-->
 
                 <div id="content_destaque_destaque">
-                    <span><a href="#">Postado em 05/05/2020</a></span>
-                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" border="0"></a>
-                    <p><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></p>
+
+                    <?php query_posts('showposts=1&category_name=noticias'); ?>                
+                    <!-- ABRE LOOP -->
+                    <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+
+                    <span><a href="<?php the_Permalink() ?>">Postado em <?php the_time('j M Y'); ?></a></span>
+                    <a href="<?php the_Permalink() ?>"><img src="<?php bloginfo('template_directory'); ?>/midias/ilustra-300.png" alt="" border="0"></a>
+                    <p><a href="<?php the_Permalink() ?>"><?php the_title(); ?></a></p>
+
+                    <!-- FECHA O LOOP -->
+                    <?php endwhile; else: ?>
+                    <?php endif; ?>
+
                 </div><!--content_destaque_destaque -->
 
             </div>
