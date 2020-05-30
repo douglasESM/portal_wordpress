@@ -193,14 +193,15 @@
 
             <div id="content_vistos_conteudo">
                 <h1>+ vistos</h1>
+                php if(function_exists('the_views')) { the_views(); } ?>
                 
-                <ol>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-                </ol>
+                <?php if(function_exists('the_views')): ?>
+                    <ol>
+                        <?php get_most_viewd('post', 5); ?>
+                    <ol>
+                <?php endif; ?>
+                    
+                
             </div>
 
             <div id="content_vistos_anuncio">
