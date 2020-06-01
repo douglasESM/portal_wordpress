@@ -141,7 +141,7 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 
 /*SIDEBAR NEWSLETTER*/
 .sidebar_newsletter{font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #639; margin: 0 0 5px 0;}
-#sidebar_newsletter input{width: 184px; padding: 3px; font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #999; border:1px solid #333;}
+#sidebar_newsletter input{width: 182px; padding: 3px; font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #999; border:1px solid #333;}
 #sidebar_newsletter .btn{width: 100px; float: right; margin: 5px 0; color: #fff; background: #333; cursor: pointer;}
 #sidebar_newsletter .btn:hover{background: #fff; color: #333;}
 #sidebar_newsletter label{display: block;}

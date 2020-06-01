@@ -5,30 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-	<?php
-		if (is_home()){
-			bloginfo('name');
-		}elseif (is_category()){
-			single_cat_title(); 
-			echo ' -  '; 
-			bloginfo('name');
-		}elseif (is_single()){
-			single_post_title();
-		}elseif (is_page()){
-			bloginfo('name');
-			echo ': ';
-			single_post_title();
-		}else{
-			wp_title('', true);
-		}
-	?>
-	
-</title>
+		<?php
+			if (is_home()){
+				bloginfo('name');
+			}elseif (is_category()){
+				single_cat_title(); 
+				echo ' -  '; 
+				bloginfo('name');
+			}elseif (is_single()){
+				single_post_title();
+			}elseif (is_page()){
+				bloginfo('name');
+				echo ': ';
+				single_post_title();
+			}else{
+				wp_title('', true);
+			}
+		?>		
+	</title>
+
     <!--CSS Manual-->
     <style type="text/css" media="screen">
 		@import url( <?php bloginfo('stylesheet_url'); ?>);
 	</style>
-<?php wp_head();?>    
+
+	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.js"></script>
+
+	<script type="text/javascript">
+		
+		$(function(){
+			//chama a função quando o botão Cadastrar é clicado
+			$("#cadastrar").click(function(){
+				//escondento o input
+				$("#formulario_news").hide("slow");
+				//mostrando o gif de carregamento
+				beforeSend:$("#carregando_news").show("slow");
+				//armazenando os dados do email em uma variavel
+				var email = $("#email").val();
+				//enviando e email para um arquivo php fazer a tratativa
+				$.post("<?php bloginfo('template_directory');?>/newsletter/form.php",{email: email}, function(pegar_retorno){
+					complete:$("#carregando_news").hide("slow");
+					$("#retorno").show("slow").text(pegar_retorno);
+				});
+			});
+		});
+
+	</script>
+
+	<?php wp_head();?>    
 </head>
 <body>
     <div id="box">

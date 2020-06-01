@@ -1,13 +1,26 @@
 <div id="right_sidebar">
+
 	<div id="sidebar_newsletter">
+
 		<h1 class="sidebar_newsletter">/newsletter</h1>
-		<form>
+
+		<div id="formulario_news">
 			<label>
-				<input type="text/">
-				<input type="submit" value="Cadastrar"class="btn">
+				<input type="text/" name="email" id="email">
+				<input type="submit" value="Cadastrar" id="cadastrar" class="btn">
 				<span>Seu e-mail</span>
 			</label>
-		</form>
+		</div> <!-- FECHA DIV formulario_news -->
+	
+		<div id="carregando_news" style="padding: 5px; float: left; display:none;" ><img src="<?php bloginfo('template_directory');?>/imagens/ajax-loader.gif" alt=""> 
+		Aguarde, enviando...
+		</div> <!-- FECHA DIV carregando_news -->
+		
+		<div id="retorno" style="padding: 10px; float: left; border:1px  solid #0F0; background: #C1FFD1; width: 168px;                     display: none; font: 14px 'Trebuchet MS', Arial, Helvetica, sans-serif; font-weight: 					  bold; color: #333" >
+			
+		</div> <!-- FECHA DIV retorno -->
+		
+	
 	</div><!--fim sidebar_newsletter-->
 
 	<div id="sidebar_enquete">
