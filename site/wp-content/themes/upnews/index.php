@@ -73,8 +73,9 @@
 
         </div>
 
+        <!--content_entreterimento-->
         <div id="content_entreterimento">
-
+            <!-- div content_entreterimento_conteudo -->
             <div id="content_entreterimento_conteudo">
                 <ul>
 
@@ -100,8 +101,9 @@
                 <img src="<?php bloginfo('template_directory'); ?>/imagens/anuncio3.png" alt="">
             </div><!--  content_entreterimento_anuncio -->
 
-        </div><!-- content_entreterimento -->
+        </div><!-- fechamento da div content_entreterimento -->
 
+        <!--DIV ESPORTES-->
         <div id="contet_esportes">
 
             <div id="content_esportes_conteudo">
@@ -154,8 +156,9 @@
 
         </div><!--Fecha div de conteúdos para esportes-->            
 
+        <!--DIV TECNOLOGIA -->                
         <div id="content_tecnologia">
-
+             <!--DESTAQUE TECNOLOGIA-->           
             <div id="content_tecnologia_destaque">
                 <?php query_posts('showposts=1&category_name=tecnologia'); ?>                
                 <!-- ABRE LOOP -->
@@ -170,8 +173,8 @@
                 <!-- FECHA O LOOP -->
                 <?php endwhile; else: ?>
                 <?php endif; ?>
-            </div>
-
+            </div><!--FECHA DIV DESTAQUE TECNOLOGIA-->
+            <!--DIV TECNOLOGIA CONTEUDO-->
             <div id="content_tecnologia_conteudo">
                 <ul>
                     <?php query_posts('showposts=3&category_name=tecnologia&offset=1'); ?>                
@@ -185,7 +188,7 @@
                     <?php endif; ?>                    
 
                 </ul>
-            </div>
+            </div><!--FECHA DIV TECNOLOGIA CONTEUDO-->
 
         </div><!-- contet_tecnologia -->
 
@@ -193,11 +196,10 @@
 
             <div id="content_vistos_conteudo">
                 <h1>+ vistos</h1>
-                php if(function_exists('the_views')) { the_views(); } ?>
                 
-                <?php if(function_exists('the_views')): ?>
+                <?php if (function_exists('get_most_viewed')): ?>
                     <ol>
-                        <?php get_most_viewd('post', 5); ?>
+                        <?php get_most_viewed('post', 5); ?>
                     <ol>
                 <?php endif; ?>
                     
@@ -206,14 +208,15 @@
 
             <div id="content_vistos_anuncio">
                 <h1 class="videos">/vídeos</h1>
+                <?php query_posts('showposts=1&category_name=videos'); ?>                
+                <!-- ABRE LOOP -->
+                <?php if (have_posts()): while (have_posts()) : the_post(); ?>
                 
-                <iframe width="300" 
-                        height="225" 
-                        src="https://www.youtube.com/embed/WEsk3qVQQ4c" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
+                <?php $key="vga"; echo get_post_meta($post->ID,$key,true); ?>   
+
+                <!-- FECHA O LOOP -->
+                <?php endwhile; else: ?>
+                <?php endif; ?> 
             </div>
 
         </div><!-- Content Vistos -->
@@ -224,10 +227,3 @@
 
 <!--AQUI VAI O FOOTER-->   
 <?php get_footer(); ?>
-
-
-
-
-
-        
-        
