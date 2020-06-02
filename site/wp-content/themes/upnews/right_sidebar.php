@@ -27,15 +27,13 @@
 
 		<h1 class="sidebar_enquete">/Enquete</h1>
 		
-		<span>O que achou do nosso site?</span>
-		<ul>
-			<li>() Muito Bom </li>
-			<li>() Bom</li>
-			<li>() Não gostei</li>
-		</ul>
+		<?php
+			if (function_exists('vote_poll') && !in_pollarchive()): ?>
+				<ul>
+					<li><?php get_poll(); ?></li>
+				</ul>
 
-		<a href="#">VOTE</a>
-		<a href="#" class="ver_result">VER RESULTADOS</a>
+		<?php endif; ?>
 
 	</div><!--fim sidebar_enquete-->
 
