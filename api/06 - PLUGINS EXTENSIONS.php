@@ -36,6 +36,9 @@ echo ($user_info->last_name . ", ". $user_info->first_name . "\n");
 <!-- OS MAIS COMENTADORES
 	PLUGIN = top-commentators-widget
 -->
+<ul>
+	<?php _show_top_commentatoes();?>
+</ul>
 
 <!-- NOSSO PLUGIN DE USUARIOS -->
 <li>
@@ -64,3 +67,5 @@ OU
 
 <!-- AUTOR NA PG BLOG FORA DE LOOP -->
 <?php wp_title('', true); ?>
+
+<?php dinamic_sidebar(); ?>

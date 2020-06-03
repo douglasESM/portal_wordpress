@@ -89,26 +89,7 @@
 
 		<h1 class="sidebar_comentadores">/usuários do mês</h1>
 		<ul>
-			<li>
-				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
-				<span>Douglas E. S. Morais</span>                                               
-			</li>
-			<li>
-				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
-				<span>Douglas E. S. Morais</span>                                                
-			</li>
-			<li>
-				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
-				<span>Douglas E. S. Morais</span>                                                
-			</li>
-			<li>
-				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
-				<span>Douglas E. S. Morais</span>                                                
-			</li>
-			<li>
-				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
-				<span>Douglas E. S. Morais</span>                                                
-			</li>
+			
 		</ul>
 	</div><!--fim div sidebar_comentadores-->
 
