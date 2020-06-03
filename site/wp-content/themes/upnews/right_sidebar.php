@@ -21,8 +21,8 @@
 		</div> <!-- FECHA DIV retorno -->
 		
 	
-	</div><!--fim sidebar_newsletter-->
-
+	</div><!--fim div sidebar_newsletter-->
+	<!-- DIV responsável pelo Sidebar Enquete -->
 	<div id="sidebar_enquete">
 
 		<h1 class="sidebar_enquete">/Enquete</h1>
@@ -34,39 +34,57 @@
 				</ul>
 
 		<?php endif; ?>
+	</div><!--fim div sidebar_enquete-->
 
-	</div><!--fim sidebar_enquete-->
-
-	<!-- DIV responsável pelo parte do siga-nos -->
+	<!-- DIV responsável pelo Sidebar Siganos -->
 	<div id="sidebar_siganos"> 		
 		<h1 class="sidebar_siganos">/siga a UpNews</h1>                
 		<ul>
-			<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imagens/siganos_instagran.png" target="_blank" alt="Siganos no Instagran"></a></li>
+			<li>
+				<a href="#">
+					<img src="<?php bloginfo('template_directory'); ?>/imagens/siganos_instagran.png" target="_blank" alt="Siganos no Instagran"/>
+				</a>
+			</li>
 
-			<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imagens/siganos_twitter.png" target="_blank" alt="Siganos no Twitter"></a></li>
+			<li>
+				<a href="#">
+					<img src="<?php bloginfo('template_directory'); ?>/imagens/siganos_twitter.png" target="_blank" alt="Siganos no Twitter"/>
+				</a>
+			</li>
 
-			<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imagens/siganos_facebook.png" target="_blank" alt="Siganos no Facebook"></a></li>
+			<li>
+				<a href="#">
+					<img src="<?php bloginfo('template_directory'); ?>/imagens/siganos_facebook.png" target="_blank" alt="Siganos no Facebook">
+				</a>
+			</li>
+
 		</ul>
-	</div><!--Fecha div sidebar_siganos-->
+	</div><!--fim div sidebar_siganos-->
 
 	<!-- DIV responsável pelo equipe -->
 	<div id="sidebar_equipe">
 		<h1 class="sidebar_equipe">/equipe</h1>
 		<?php include (TEMPLATEPATH . '/sidebar_authors.php'); ?>
+	</div><!--fim div sidebar_equipe-->
 
-	</div><!--Fecha a div sidebar_equipe-->
-
+	<!-- DIV responsável pelo sidebar Plantão -->
 	<div id="sidebar_plantao">
 		<h1 class="sidebar_plantao">/plantão</h1>
 		<ul>
-			<li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-			<li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-			<li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-			<li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-			<li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
-		</ul>
-	</div><!--Fecha a div sidebar_plantao-->
+			<!-- qtde de posts a exibir e de qual categoria eles são -->
+		    <?php query_posts('showposts=5&category_name=plantao'); ?>                
+		    <!-- ABRE LOOP -->
+		    <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
+		    <li><a href="<?php the_Permalink() ?>"><?php the_title(); ?></li>
+
+		    <!-- FECHA O LOOP -->
+		    <?php endwhile; else: ?>
+		    <?php endif; ?> 			
+		</ul>
+	</div><!--fim div sidebar_plantao-->
+
+	<!-- DIV responsável pelo sidebar Comentadores -->
 	<div id="sidebar_comentadores">
 
 		<h1 class="sidebar_comentadores">/usuários do mês</h1>
@@ -92,6 +110,6 @@
 				<span>Douglas E. S. Morais</span>                                                
 			</li>
 		</ul>
-	</div><!--Fecha a div sidebar_comentadores-->
+	</div><!--fim div sidebar_comentadores-->
 
 </div><!--Fecha div right_sidebar -->
