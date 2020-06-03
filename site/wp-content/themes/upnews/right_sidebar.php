@@ -37,35 +37,23 @@
 
 	</div><!--fim sidebar_enquete-->
 
-	<div id="sidebar_siganos">
+	<!-- DIV responsável pelo parte do siga-nos -->
+	<div id="sidebar_siganos"> 		
 		<h1 class="sidebar_siganos">/siga a UpNews</h1>                
 		<ul>
 			<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imagens/siganos_instagran.png" target="_blank" alt="Siganos no Instagran"></a></li>
+
 			<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imagens/siganos_twitter.png" target="_blank" alt="Siganos no Twitter"></a></li>
+
 			<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imagens/siganos_facebook.png" target="_blank" alt="Siganos no Facebook"></a></li>
 		</ul>
 	</div><!--Fecha div sidebar_siganos-->
 
+	<!-- DIV responsável pelo equipe -->
 	<div id="sidebar_equipe">
+		<h1 class="sidebar_equipe">/equipe</h1>
+		<?php include (TEMPLATEPATH . '/sidebar_authors.php'); ?>
 
-		<h1 class="sidebar_equipe">/siga a UpNews</h1>
-		<ul>
-			<li>
-				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
-				<span>Douglas E. S. Morais</span>
-				<a href="#">/blog do autor</a>                        
-			</li>
-			<li>
-				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
-				<span>Douglas E. S. Morais</span>
-				<a href="#">/blog do autor</a>                        
-			</li>
-			<li>
-				<img src="<?php bloginfo('template_directory'); ?>/imagens/autor.png" alt="" height="48px" width="48px">
-				<span>Douglas E. S. Morais</span>
-				<a href="#">/blog do autor</a>                        
-			</li>
-		</ul>
 	</div><!--Fecha a div sidebar_equipe-->
 
 	<div id="sidebar_plantao">
