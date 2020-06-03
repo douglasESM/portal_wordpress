@@ -79,14 +79,20 @@
 			<div id="header_menu">
 				<ul class="menu_paginas">
 					<li><a href="<?php echo get_settings('home'); ?>">Página inicial</a></li>
-					<li><a href="#">Fale conosco</a></li>
-					<li><a href="#">Sobre nós</a></li>
+					<?php wp_list_pages('title_li=');?>
 				</ul>
 				<ul class="menu_categorias">
-					<li><a href="#" class="noticias">/noticias</a></li>
-					<li><a href="#" class="esportes">/esportes</a></li>
-					<li><a href="#" class="entretenimento">/entreterimento</a></li>
-					<li><a href="#" class="tecnologia">/tecnologia</a></li>
+					<?php $id_da_categoria = get_cat_id('noticias'); $link_da_categoria = get_category_link($id_da_categoria);?>
+					<li><a href="<?php echo $link_da_categoria; ?>" class="noticias">/noticias</a></li>
+
+					<?php $id_da_categoria = get_cat_id('esportes'); $link_da_categoria = get_category_link($id_da_categoria);?>
+					<li><a href="<?php echo $link_da_categoria; ?>" class="esportes">/esportes</a></li>
+
+					<?php $id_da_categoria = get_cat_id('entreterimento'); $link_da_categoria = get_category_link($id_da_categoria);?>
+					<li><a href="<?php echo $link_da_categoria; ?>" class="entretenimento">/entreterimento</a></li>
+
+					<?php $id_da_categoria = get_cat_id('tecnologia'); $link_da_categoria = get_category_link($id_da_categoria);?>
+					<li><a href="<?php echo $link_da_categoria; ?>" class="tecnologia">/tecnologia</a></li>
 				</ul>
 			</div><!--Fechamento da div header_menu-->
 

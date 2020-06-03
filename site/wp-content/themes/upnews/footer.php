@@ -7,12 +7,21 @@
 		<div id="footer_all">    
 			
 			<div id="footer">
+			
 				<ul>
-					<li><a href="#">noticias</a></li>
-					<li><a href="#">esportes</a></li>
-					<li><a href="#">entreterimento</a></li>
-					<li><a href="#">tecnologia</a></li>
+					<?php $id_da_categoria = get_cat_id('noticias'); $link_da_categoria = get_category_link($id_da_categoria);?>
+					<li><a href="<?php echo $link_da_categoria; ?>" class="noticias">/noticias</a></li>
+
+					<?php $id_da_categoria = get_cat_id('esportes'); $link_da_categoria = get_category_link($id_da_categoria);?>
+					<li><a href="<?php echo $link_da_categoria; ?>" class="esportes">/esportes</a></li>
+
+					<?php $id_da_categoria = get_cat_id('entreterimento'); $link_da_categoria = get_category_link($id_da_categoria);?>
+					<li><a href="<?php echo $link_da_categoria; ?>" class="entretenimento">/entreterimento</a></li>
+
+					<?php $id_da_categoria = get_cat_id('tecnologia'); $link_da_categoria = get_category_link($id_da_categoria);?>
+					<li><a href="<?php echo $link_da_categoria; ?>" class="tecnologia">/tecnologia</a></li>
 				</ul>
+				
 				<div id="footer_txt">
 					<a href="<?php echo get_settings('home'); ?>"><img src="<?php bloginfo('template_directory'); ?>/imagens/upnews.png" alt="Desenvilvido por Douglas Morais, Todos os direitos reservados" border="0"></a>
 				</div><!--Fechamento da div footer_txt-->
