@@ -26,7 +26,7 @@
 	<div id="sidebar_enquete">
 
 		<h1 class="sidebar_enquete">/Enquete</h1>
-		
+		<!-- function que chama o plugin da Enquete -->
 		<?php
 			if (function_exists('vote_poll') && !in_pollarchive()): ?>
 				<ul>
