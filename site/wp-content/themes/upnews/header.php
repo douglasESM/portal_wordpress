@@ -74,10 +74,11 @@
 						<input type="submit" value="" class="btn"/>
 					</label>
 				</form>
-			</div><!--Fechamento da div header_surch-->
+			</div><!--Fechamento da div header_search-->
 
 			<div id="header_menu">
 				<ul class="menu_paginas">
+					
 					<li><a href="<?php echo get_settings('home'); ?>">Página inicial</a></li>
 					<?php wp_list_pages('title_li=');?>
 				</ul>

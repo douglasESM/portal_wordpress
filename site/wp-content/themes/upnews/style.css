@@ -14,6 +14,9 @@ Tags: portal
 *{margin:0; padding:0;}
 body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; background:url(imagens/...) repeat-x;}
 #box{width:1000px; margin: 0 auto;}
+.alignleft{float: left; margin-right: 5px;}
+.alignright{float: right; margin-left: 5px;}
+blockquote{margin: 10px; border-left: 5px solid #005789; padding: 0 5px; background: rgb(149, 199, 233);}
 
 /*Topo*/
 #header{right: 208px; height:208px; width: 1000px; border-bottom: 9px solid #ccc;}
@@ -155,13 +158,13 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #sidebar_enquete a {text-decoration: none; display: block; text-align: center; color: #F60; margin: 3px 0; padding: 0; font-weight: bold;}
 #sidebar_enquete .ver_result {font-weight: normal; text-transform: lowercase;}
 #sidebar_enquete a:hover{color:#F00;}
-#sidebar_enquete input {background-color: #005789; border: 1px solid #069; color: #FFF; font-weight: bold; font-variant: small-caps;};
+#sidebar_enquete input {background-color: #005789; border: 1px solid #069; color: #FFF; font-weight: bold; font-variant: small-caps;}
 
 /*SIDEBAR SIGANOS*/
 .sidebar_siganos {font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #09F; margin: 0 0 5px 0;}
 #sidebar_siganos img{border:0;}
 #sidebar_siganos ul{list-style: none; float: left; width: 100%;}
-#sidebar_siganos ul li{ float: left; display: inline; margin:0 5px}
+#sidebar_siganos ul li{float: left; display: inline; margin:0 5px}
 
 /*SIDEBAR EQUIPE*/
 .sidebar_equipe{font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #093; margin: 0 0 5px 0;}
@@ -186,7 +189,18 @@ body{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; backg
 #sidebar_comentadores ul {list-style: none; margin: 0; padding:0;}
 #sidebar_comentadores ul li {float: left; width: 190px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px groove #333;}
 
-
+/*PAGE*/
+#page {width: 610px; padding: 10px}
+#page .titulo{font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; font-variant: small-caps; color: #005789;
+              margin-bottom: 5px; padding-bottom: 3px; border-bottom: 10px solid #ccc; float: left; width: 610px;}
+#page h1{font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; font-variant: small-caps; color: #F90; margin: 5px 0}
+#page h2{font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; font-variant: small-caps; color: #666; margin: 5px 0}
+#page h3{font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; font-variant: small-caps; color: #999; margin: 5px 0}
+#page h4{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; font-variant: small-caps; color: #005789; margin: 5px 0}
+#page p{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; margin: 0 0 10px 0;}
+#page ul{list-style: square; margin: 0 0 0 25px;}
+#page ol{margin: 0 0 0 30px;}
+#page ul li{margin: 3px 0;}
 
 /*footer*/
 #clear{clear: both;}
