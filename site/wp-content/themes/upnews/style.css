@@ -201,7 +201,7 @@ blockquote {margin: 10px; border-left: 5px solid #005789; padding: 0 5px; backgr
 .page ul {list-style: square; margin: 0 0 0 25px;}
 .page ol {margin: 0 0 0 30px;}
 .page ul li {margin: 3px 0;}
-.page form{width: 500px; display: block; margin: 0 auto; padding: 10px; background: #E8E8E8;}
+.page form{width: 500px; display: block; margin: 50px auto; padding: 10px; background: #E8E8E8;}
 .page form p{display: block; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #005789; font-variant: small-caps;}
 .page input{ width: 488px; padding: 5px; border: 1px solid #333; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-variant: small-caps;}
 .page textarea{ width: 488px; padding: 5px; border: 1px solid #333; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-variant: small-caps;}
@@ -209,6 +209,27 @@ blockquote {margin: 10px; border-left: 5px solid #005789; padding: 0 5px; backgr
 .page .btn{width: 150px; display: block; margin: 0 auto; cursor: pointer; background: #FFF; color: #666}
 .page .btn:hover{border: 1px solid #005789; color: #005789;}
 
+/*single*/
+.single {width: 670px; padding: 5px; float: left;}
+.single #titulo{font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; font-variant: small-caps; color: #005789;
+			  margin-bottom: 5px; padding-bottom: 3px; border-bottom: 10px solid #ccc; float: left; width: 670px}
+.single h1 {font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; font-variant: small-caps; color: #F90; margin: 5px 0}
+.single h2 {font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; font-variant: small-caps; color: #666; margin: 5px 0}
+.single h3 {font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; font-variant: small-caps; color: #999; margin: 5px 0}
+.single h4 {font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; font-variant: small-caps; color: #005789; margin: 5px 0}
+.single p {font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; margin: 10px 0;}
+.single ul {list-style: square; margin: 0 0 0 25px;}
+.single ol {margin: 0 0 0 30px;}
+.single ul li {margin: 3px 0;}
+.single form{width: 500px; display: block; margin: 50px auto; padding: 10px; background: #E8E8E8;}
+.single form p{display: block; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #005789; font-variant: small-caps;}
+.single input{ width: 488px; padding: 5px; border: 1px solid #333; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-variant: small-caps;}
+.single textarea{ width: 488px; padding: 5px; border: 1px solid #333; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-variant: small-caps;}
+.single select{ width: 488px; border: 1px solid #333; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-variant: small-caps;}
+.single .btn{width: 150px; display: block; margin: 0 auto; cursor: pointer; background: #FFF; color: #666}
+.single .btn:hover{border: 1px solid #005789; color: #005789;}
+
+#single_sidebar{width: 310px; padding: 5px; float: right;}
 
 /*footer*/
 #clear{clear: both;}
