@@ -11,7 +11,8 @@
             <!-- mostra o conteudo do post -->
             <?php the_content(); ?>
 
-            
+            <span class="tags"><?php if (function_exists('the_tags')) the_tags(); ?></span>
+
             <!-- chama o plugin de comentários -->
             <span class="comentarios">
                 <?php comments_template(); ?>

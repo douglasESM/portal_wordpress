@@ -233,6 +233,8 @@ blockquote {margin: 10px; border-left: 5px solid #005789; padding: 0 5px; backgr
 .single a{color: #005789;}
 .single a:hover{color: #F90;}
 
+.tags{padding: 10px; margin: 10px 0; background: #e8e8e8; border:1px solid #66666; font-variant: small-caps; float: left; width: 650px}
+
 #commentlist{padding: 5px; border: 1px solid #ccc; margin: 10px 5px;}
 #commentlist img{float: left; padding: 3px; border: 1px solid #333; margin: 10px}
 
