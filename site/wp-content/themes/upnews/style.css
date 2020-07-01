@@ -208,6 +208,8 @@ blockquote {margin: 10px; border-left: 5px solid #005789; padding: 0 5px; backgr
 .page select{ width: 488px; border: 1px solid #333; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-variant: small-caps;}
 .page .btn{width: 150px; display: block; margin: 0 auto; cursor: pointer; background: #FFF; color: #666}
 .page .btn:hover{border: 1px solid #005789; color: #005789;}
+.page a{color: #005789;}
+.page a:hover{color: #F90;}
 
 /*single*/
 .single {width: 670px; padding: 5px; float: left;}
@@ -221,13 +223,18 @@ blockquote {margin: 10px; border-left: 5px solid #005789; padding: 0 5px; backgr
 .single ul {list-style: square; margin: 0 0 0 25px;}
 .single ol {margin: 0 0 0 30px;}
 .single ul li {margin: 3px 0;}
-.single form{width: 500px; display: block; margin: 50px auto; padding: 10px; background: #E8E8E8;}
-.single form p{display: block; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #005789; font-variant: small-caps;}
-.single input{ width: 488px; padding: 5px; border: 1px solid #333; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-variant: small-caps;}
-.single textarea{ width: 488px; padding: 5px; border: 1px solid #333; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-variant: small-caps;}
-.single select{ width: 488px; border: 1px solid #333; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-variant: small-caps;}
+.single form{width: 650px; display: block; margin: 50px auto; padding: 10px; background: #E8E8E8;}
+.single form p{display: block; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #005789; font-variant: small-caps; margin: 15px 0}
+.single input{ width: 638px; padding: 5px; border: 1px solid #333; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-variant: small-caps;}
+.single textarea{ width: 638px; padding: 5px; border: 1px solid #333; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-variant: small-caps;}
+.single select{ width: 638px; border: 1px solid #333; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999; font-variant: small-caps;}
 .single .btn{width: 150px; display: block; margin: 0 auto; cursor: pointer; background: #FFF; color: #666}
 .single .btn:hover{border: 1px solid #005789; color: #005789;}
+.single a{color: #005789;}
+.single a:hover{color: #F90;}
+
+#commentlist{padding: 5px; border: 1px solid #ccc; margin: 10px 5px;}
+#commentlist img{float: left; padding: 3px; border: 1px solid #333; margin: 10px}
 
 #single_sidebar{width: 310px; padding: 5px; float: right;}
 

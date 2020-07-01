@@ -7,13 +7,11 @@
 
             <!-- mostra o titulo do post -->
             <span id="titulo"><?php the_title();  ?></span>
+
+            <!-- mostra o conteudo do post -->
             <?php the_content(); ?>
 
-            <!-- exibe as tags do post -->
-            <span class="tags">
-                <?php if (function_exists('the_tags'))the_tags(); ?>
-            </span>
-
+            
             <!-- chama o plugin de comentários -->
             <span class="comentarios">
                 <?php comments_template(); ?>
