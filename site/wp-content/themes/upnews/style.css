@@ -235,10 +235,32 @@ blockquote {margin: 10px; border-left: 5px solid #005789; padding: 0 5px; backgr
 
 .tags{padding: 10px; margin: 10px 0; background: #e8e8e8; border:1px solid #66666; font-variant: small-caps; float: left; width: 650px}
 
+/*SISTEMA DE COMENTARIOS*/
 #commentlist{padding: 5px; border: 1px solid #ccc; margin: 10px 5px;}
 #commentlist img{float: left; padding: 3px; border: 1px solid #333; margin: 10px}
 
+/*ESTRUTURA DO SIDEBAR SINGLE*/
 #single_sidebar{width: 310px; padding: 5px; float: right;}
+
+
+/*AGRUPADO*/
+#dados_autor{float: left; width: 310px; margin-bottom: 10px;}
+#single_sidebar h1{font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin-bottom: 5px; padding-bottom: 3px; border-bottom: 10px solid #ccc;
+					color: #666; font-variant: small-caps;}
+
+
+/*DADOS DO AUTOR*/
+#dados_autor .avatar img {float: left; padding: 5px ; margin-right: 5px; border: 1px solid #ccc;}
+#dados_autor .nome {font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; 
+                    font-variant: small-caps; color: #005789;}
+#dados_autor p {font-variant: small-caps; margin: 5px 0;}
+#dados_autor a{font-variant: small-caps; font-weight: bold; padding: 5px; border: 1px solid #ccc; 
+				margin: 5px; float: left; width: 80px; text-align: center; color: #666; 
+				text-decoration: none;}
+#dados_autor a:hover{background-color: #005789; color: white;}
+
+
+
 
 /*footer*/
 #clear{clear: both;}
