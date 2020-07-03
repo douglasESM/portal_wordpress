@@ -44,6 +44,23 @@
 
 </div><!-- fim anuncios do google -->
 
-<div id="noticias">
+<div id="sidebar_noticias">
+
     <h1>Noticias</h1>
-</div><!--fim relacionados -->
+
+    <ul>
+               
+        <?php query_posts('showposts=5'); ?>                
+	        <!-- ABRE LOOP -->
+	        <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+		    	<li> 
+		        	<h2><a href="<?php the_Permalink() ?>"><?php the_title(); ?></a></h2>
+		        	<span><?php the_time('j M Y'); ?>/<?php if( function_exists('the_views')){the_views();} ?></span>
+			</li>
+	        <!-- FECHA O LOOP -->
+	        <?php endwhile; else: ?>
+        <?php endif; ?>
+
+    </ul>
+
+</div><!--fim noticias -->

@@ -244,7 +244,7 @@ blockquote {margin: 10px; border-left: 5px solid #005789; padding: 0 5px; backgr
 
 
 /*AGRUPADO*/
-#dados_autor, #ads_google, #dados_post{float: left; width: 310px; margin-bottom: 10px;}
+#dados_autor, #ads_google, #dados_post, #sidebar_noticias{float: left; width: 310px; margin-bottom: 10px;}
 #single_sidebar h1{font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin-bottom: 5px; padding-bottom: 3px; border-bottom: 10px solid #ccc;
 					color: #666; font-variant: small-caps;}
 
@@ -271,8 +271,17 @@ blockquote {margin: 10px; border-left: 5px solid #005789; padding: 0 5px; backgr
 /*ANUNCIO*/
 #ads_google .anuncio{margin: 0 5px 10px 5px;}
 
-
-
+/*sidebar_noticias*/
+#sidebar_noticias ul{list-style: none; margin: 5px 0; }
+#sidebar_noticias ul li{width: 310px; float: left; margin-bottom: 5px; padding-bottom: 5px; 
+						border-bottom: 1px dotted #ccc;}
+#sidebar_noticias ul li a{text-decoration: none; color: #666;}
+#sidebar_noticias ul li a:hover{text-decoration: underline;}
+#sidebar_noticias ul li h2{font-variant: small-caps;}
+#sidebar_noticias ul li h2 a{color: #005789;}
+#sidebar_noticias ul li h2 a:hover{color: #F60;}
+#sidebar_noticias ul li span{font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif; font-variant: small-caps;
+								margin: 5px 0; color: #F60}
 
 /*footer*/
 #clear{clear: both;}
